@@ -13,7 +13,7 @@ The author assumes no liability and is not responsible for misuse, damages, data
 By using this repository, you agree to use it responsibly and ethically.
 
 
-Overview
+##Overview
 
 AndroShell automates parts of a typical Android reverse TCP shell testing workflow using:
 
@@ -25,7 +25,7 @@ Linux web hosting directories
 The script streamlines repetitive setup tasks commonly performed during cybersecurity lab exercises.
 
 
-Features
+##Features
 Automated APK payload generation
 Automatic payload placement into web directory
 Lightweight payload hosting through Python HTTP server
@@ -34,29 +34,29 @@ Simplified workflow for controlled security testing
 Terminal-based automation for Linux environments
 
 
-Supported Environment:
+##Supported Environment
 Any Linux Distros
 
 
-Prerequisites:
+##Prerequisites
 Ensure you have metasploit(msfvenom) installed
 Ensure python server / apache web service is already configured
 
 
-Installation:
+##Installation
 
-https://github.com/pelagornisandersi/ANDROSHELL.git
+git clone https://github.com/pelagornisandersi/ANDROSHELL.git
 
 cd androshell
 
 chmod +x androshell.sh
 
 
-Usage :
+##Usage 
 sudo ./androshell.sh
 (administrator priveleges needed for moving apk to web server directory)
 
-Author
+##Author
 
 GitHub: @pelagornisandersi
 
