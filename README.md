@@ -76,10 +76,10 @@ sudo ./androshell.sh
 
 Follow the on-screen prompts to:
 
-1. Enter your attacker IP (`LHOST`) and port (`LPORT`)
+1. Enter your attacker port (`LPORT`)
 2. Let the script generate the APK payload via `msfvenom`
 3. Payload is automatically moved to the web directory
-4. Python HTTP server starts to serve the payload
+4. apache starts to serve the payload
 5. Metasploit listener launches automatically
 
 ---
