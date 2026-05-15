@@ -45,8 +45,10 @@ Ensure python server / apache web service is already configured
 
 Installation:
 
-git clone https://github.com/YOUR_USERNAME/androshell.git
+
+
 cd androshell
+
 chmod +x androshell.sh
 
 
