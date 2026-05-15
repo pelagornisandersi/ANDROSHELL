@@ -45,7 +45,7 @@ Ensure python server / apache web service is already configured
 
 Installation:
 
-
+https://github.com/pelagornisandersi/ANDROSHELL.git
 
 cd androshell
 
