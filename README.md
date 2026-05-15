@@ -64,6 +64,7 @@ Ensure the following are installed and configured:
 ```bash
 git clone https://github.com/pelagornisandersi/ANDROSHELL.git
 cd ANDROSHELL
+chmod +x androshell.sh
 ```
 
 ---
