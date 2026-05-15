@@ -1,5 +1,7 @@
 # ANDROSHELL
 Automated Bash workflow for generating and hosting Android reverse TCP payloads with Metasploit for authorized cybersecurity lab environments.
+
+
 ⚠️ Legal & Ethical Notice
 
 This project is intended strictly for educational purposes, cybersecurity research, and authorized penetration testing within lab environments or systems you explicitly own or have permission to assess.
