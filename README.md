@@ -59,15 +59,6 @@ Ensure the following are installed and configured:
 - Python web server or Apache web service or accessible web directory
 
 ---
-
-## Installation
-
-```bash
-git clone https://github.com/pelagornisandersi/ANDROSHELL.git
-
-cd ANDROSHELL
-
-
 ## Usage
 
 ```bash
@@ -78,4 +69,13 @@ GitHub: @pelagornisandersi
 
 Cybersecurity student & security enthusiast building lab automation tools.
 
+---
+
+
+## Installation
+
+```bash
+git clone https://github.com/pelagornisandersi/ANDROSHELL.git
+
+cd ANDROSHELL
 
