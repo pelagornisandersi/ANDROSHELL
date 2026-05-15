@@ -31,10 +31,7 @@ Automatic Metasploit listener startup
 Simplified workflow for controlled security testing
 Terminal-based automation for Linux environments
 
-Supported Environment
-
-Recommended:
-
+Supported Environment:
 Any Linux Distros
 
 Prerequisites:
