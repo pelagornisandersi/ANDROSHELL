@@ -1,8 +1,10 @@
 # ANDROSHELL
+
 Automated Bash workflow for generating and hosting Android reverse TCP payloads with Metasploit for authorized cybersecurity lab environments.
 
+---
 
-⚠️ Legal & Ethical Notice
+## ⚠️ Legal & Ethical Notice
 
 This project is intended strictly for educational purposes, cybersecurity research, and authorized penetration testing within lab environments or systems you explicitly own or have permission to assess.
 
@@ -12,59 +14,58 @@ The author assumes no liability and is not responsible for misuse, damages, data
 
 By using this repository, you agree to use it responsibly and ethically.
 
+---
 
-##Overview
+## Overview
 
 AndroShell automates parts of a typical Android reverse TCP shell testing workflow using:
 
-Bash scripting
-Metasploit Framework
-Python HTTP server
-Linux web hosting directories
+- Bash scripting
+- Metasploit Framework
+- Python HTTP server
+- Linux web hosting directories
 
 The script streamlines repetitive setup tasks commonly performed during cybersecurity lab exercises.
 
+---
 
-##Features
-Automated APK payload generation
-Automatic payload placement into web directory
-Lightweight payload hosting through Python HTTP server
-Automatic Metasploit listener startup
-Simplified workflow for controlled security testing
-Terminal-based automation for Linux environments
+## Features
 
+- Automated APK payload generation
+- Automatic payload placement into web directory
+- Lightweight payload hosting through Python HTTP server
+- Automatic Metasploit listener startup
+- Simplified workflow for controlled security testing
+- Terminal-based automation for Linux environments
 
-##Supported Environment
-Any Linux Distros
+---
 
+## Supported Environment
 
-##Prerequisites
-Ensure you have metasploit(msfvenom) installed
-Ensure python server / apache web service is already configured
+Any Linux distribution.
 
+Recommended:
+- Kali Linux
+- Parrot OS
+- Ubuntu-based pentesting environments
 
-##Installation
+---
 
+## Prerequisites
+
+Ensure the following are installed and configured:
+
+- Metasploit Framework (`msfvenom`)
+- Python 3
+- Apache web service or accessible web directory
+
+---
+
+## Installation
+
+```bash
 git clone https://github.com/pelagornisandersi/ANDROSHELL.git
 
-cd androshell
+cd ANDROSHELL
 
 chmod +x androshell.sh
-
-
-##Usage 
-sudo ./androshell.sh
-(administrator priveleges needed for moving apk to web server directory)
-
-##Author
-
-GitHub: @pelagornisandersi
-
-Cybersecurity student & security enthusiast building lab automation tools.
-
-
-
-
-
-
-
