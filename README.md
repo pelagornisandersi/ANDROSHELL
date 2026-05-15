@@ -56,8 +56,7 @@ Recommended:
 Ensure the following are installed and configured:
 
 - Metasploit Framework (`msfvenom`)
-- Python 3
-- Apache web service or accessible web directory
+- Python web server or Apache web service or accessible web directory
 
 ---
 
@@ -68,4 +67,15 @@ git clone https://github.com/pelagornisandersi/ANDROSHELL.git
 
 cd ANDROSHELL
 
-chmod +x androshell.sh
+
+## Usage
+
+```bash
+sudo ./androshell.sh
+
+### Author
+GitHub: @pelagornisandersi
+
+Cybersecurity student & security enthusiast building lab automation tools.
+
+
